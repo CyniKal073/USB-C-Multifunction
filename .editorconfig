@@ -1,0 +1,16 @@
+root = true
+
+# 全仓库统一使用 UTF-8，避免中文注释在不同平台上出现乱码
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+[{*.c,*.h,*.S}]
+indent_style = space
+indent_size = 4
+
+[{*.md,*.yml,*.yaml}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true

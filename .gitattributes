@@ -1,0 +1,13 @@
+# 默认按文本处理并统一为 LF 存入仓库（检出时按平台自动）
+* text=auto
+
+# 二进制文件：不做任何换行或编码转换
+*.pdf    binary
+*.zip    binary
+*.xlsx   binary
+*.wvproj binary
+*.stl    binary
+*.epro2  binary
+
+# 3D 模型在 GitHub 上不提供差异对比
+mechanical/*.stl binary
