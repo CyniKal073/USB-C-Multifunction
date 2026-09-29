@@ -44,7 +44,7 @@
 
 ```mermaid
 flowchart LR
-    HOST["手机 / 主机<br/>Type-C 上行"] --> HUB["CH334P<br/>USB 2.0 Hub<br/>480Mbps"]
+    HOST["手机 / 主机<br/>Type-C 上行"] --> HUB["CH334P<br/>USB 2.0 Hub<br/>480Mbps"<br/>CH227P"]
     HUB --> A["2× USB-A"]
     HUB --> C["2× Type-C"]
     HUB --> CODEC["ATE700Q<br/>USB Audio Codec"]
